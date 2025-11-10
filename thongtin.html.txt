@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông Tin</title>
+</head>
+<body>
+    <h1>Thông Tin Chung</h1>
+    
+    <p>Đây là nơi mô tả thông tin chi tiết về công ty/dịch vụ.</p>
+
+    <ul>
+        <li><a href="trangchu.html">Trang Chủ</a></li>
+        <li><a href="thongtin.html">Thông Tin</a></li>
+        <li><a href="dichvu.html">Dịch Vụ</a></li>
+    </ul>
+    
+    <hr>
+    <p>Liên hệ: 0123.456.789</p>
+</body>
+</html>

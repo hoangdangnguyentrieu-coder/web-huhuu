@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Dịch Vụ</title>
+</head>
+<body>
+    <h1>Các Dịch Vụ Của Chúng Tôi</h1>
+    
+    <p>Chúng tôi cung cấp các dịch vụ sau:</p>
+    
+    <ol>
+        <li>Thiết kế Web</li>
+        <li>Phát triển Ứng dụng Di động</li>
+        <li>Tư vấn Công nghệ</li>
+    </ol>
+
+    <ul>
+        <li><a href="trangchu.html">Trang Chủ</a></li>
+        <li><a href="thongtin.html">Thông Tin</a></li>
+        <li><a href="dichvu.html">Dịch Vụ</a></li>
+    </ul>
+    
+    <hr>
+    <p>Chất lượng hàng đầu!</p>
+</body>
+</html>
