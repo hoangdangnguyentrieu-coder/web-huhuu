@@ -5,23 +5,47 @@
     <title>Thông Tin</title>
 
     <style>
-        /* Đổi màu chủ đề (ví dụ: nền xám nhạt, chữ xám đen) */
+        /* Thiết lập màu nền và font chữ cơ bản cho toàn trang */
         body {
-            background-color: #f0f0f0; 
-            color: #333333; 
+            background-color: #fffafa; /* Nền trắng hồng nhạt (Snow) */
+            color: #333333; /* Màu chữ đen xám */
             font-family: Arial, sans-serif;
+            margin: 20px; 
         }
 
-        /* Loại bỏ dấu gạch dưới và đặt màu chữ cho các đường link */
+        /* Thêm màu sắc cho tiêu đề chính */
+        h1 {
+            color: #8B0000; /* Màu Đỏ Sẫm/Đỏ Đô */
+            border-bottom: 2px solid #e0baba; /* Đường gạch dưới mỏng, màu hồng nhạt/đỏ nhạt */
+            padding-bottom: 10px;
+        }
+
+        /* Loại bỏ dấu gạch chân cho tất cả các liên kết */
         a {
-            text-decoration: none; /* BỎ gạch chân */
-            color: #007bff; 
+            text-decoration: none; /* Lệnh này loại bỏ gạch chân */
+            color: #B22222; /* Màu Đỏ Gạch (Firebrick) làm màu link */
+            font-weight: bold; 
         }
 
         /* Thay đổi khi rê chuột qua link */
         a:hover {
-            color: #0056b3; 
-            text-decoration: underline; /* Hiển thị lại gạch chân khi rê chuột */
+            color: #800000; /* Màu Đỏ Rượu (Maroon) đậm hơn khi rê chuột */
+            text-decoration: underline; 
+        }
+        
+        /* Đặt màu nền cho phần điều hướng */
+        ul {
+            list-style-type: none; /* Bỏ chấm đầu dòng */
+            padding: 0;
+            background-color: #f8e8e8; /* Nền hồng nhạt cho menu */
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        li {
+            display: inline; /* Đặt các mục menu nằm ngang */
+            margin-right: 15px;
+            padding: 5px 10px;
         }
     </style>
     </head>
